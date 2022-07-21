@@ -17,6 +17,8 @@ body{
         border-radius: 5px;
         font-weight: 700;
         color: black;
+        margin-top: 10px;
+        margin-bottom: 20px;
 }
 .back-image{
     background-image:url(images/Capture.PNG);
@@ -34,19 +36,25 @@ body{
     margin-bottom: 50px;
 }
 .buttons{
-    margin-top: 50px;
+    margin: 40px 10px 40px 20px;
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    width: 80%;
+    background-color: black;
 
 }
 #footer{
     text-align: center;
+    color: white;
 }
 .last{
     text-align: center;
+    color: white;
+    
 }
 
 .full{
-    margin-top: 30px;
-    margin-bottom: 30px;
+margin: 30px 30px 30px 30px;
     width: 300px;
     height: 300px;
     
@@ -58,4 +66,15 @@ body{
  display: grid;
  grid-template-columns: repeat(3,1fr);
  
+}
+.hello{
+    display: flex;
+    
+}
+.center{
+    text-align: center;
+    
+}
+.black{
+    background-color: black;
 }
